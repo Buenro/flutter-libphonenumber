@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:libphonenumber/libphonenumber.dart';
+import 'package:libphonenumber_buenro_fork/libphonenumber_buenro_fork.dart';
 
 void main() => runApp(new MyApp());
 

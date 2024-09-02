@@ -1,5 +1,13 @@
 # Changelog
 
+## 3.0.2 (20240902)
+
+* Updating package name and description in pubspec.yml
+
+## 3.0.1 (20240902)
+
+* Update libphonenumber iOS class to use sharedInstance rather than alloc
+
 ## 3.0.0 (20230705)
 
 * Update Gradle 8.0.2

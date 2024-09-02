@@ -1,7 +1,7 @@
-name: libphonenumber
-description: This is a Flutter implementation of libphonenumber. It includes only a few features at the moment, and are added when more functionality is desired.
-version: 3.0.0
-homepage: https://github.com/emostar/flutter-libphonenumber
+name: libphonenumber_buenro_fork
+description: This is a Flutter implementation of libphonenumber originally developed by https://github.com/emostar/flutter-libphonenumber, forked for support for flutter 3.24.1
+version: 3.0.2
+homepage: https://github.com/Buenro/flutter-libphonenumber
 
 dependencies:
   flutter:
@@ -12,7 +12,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.codeheadlabs.libphonenumber
+        package: com.buenro.libphonenumber
         pluginClass: LibphonenumberPlugin
       ios:
         pluginClass: LibphonenumberPlugin
