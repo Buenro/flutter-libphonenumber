@@ -9,7 +9,7 @@
 
 @implementation LibphonenumberPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"codeheadlabs.com/libphonenumber"
+    FlutterMethodChannel* channel = [FlutterMethodChannel methodChannelWithName:@"buenro.com/libphonenumber"
                                                                 binaryMessenger:[registrar messenger]];
     
     LibphonenumberPlugin* instance = [[LibphonenumberPlugin alloc] init];

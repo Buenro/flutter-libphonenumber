@@ -34,7 +34,7 @@ enum PhoneNumberType {
 
 class PhoneNumberUtil {
   static const MethodChannel _channel =
-      const MethodChannel('codeheadlabs.com/libphonenumber');
+      const MethodChannel('buenro.com/libphonenumber');
 
   static Future<bool?> isValidPhoneNumber({
     required String phoneNumber,

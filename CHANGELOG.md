@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.0.5 (20240902)
+
+* Updating meta to 1.12.0
+
+## 3.0.4 (20240902)
+
+* Updating references to package name for consistency - missed folder
+
+## 3.0.3 (20240902)
+
+* Updating references to package name for consistency
+* 
 ## 3.0.2 (20240902)
 
 * Updating package name and description in pubspec.yml

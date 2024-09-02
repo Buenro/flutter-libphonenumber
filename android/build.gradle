@@ -1,4 +1,4 @@
-group 'com.mathrawk.libphonenumber'
+group 'com.buenro.libphonenumber'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -23,7 +23,7 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 33
-    namespace 'com.mathrawk.libphonenumber'
+    namespace 'com.buenro.libphonenumber'
 
     defaultConfig {
         minSdkVersion 16

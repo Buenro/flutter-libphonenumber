@@ -26,7 +26,7 @@ public class LibphonenumberPlugin implements MethodCallHandler, FlutterPlugin {
 
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
-    final MethodChannel channel = new MethodChannel(binding.getBinaryMessenger(), "codeheadlabs.com/libphonenumber");
+    final MethodChannel channel = new MethodChannel(binding.getBinaryMessenger(), "buenro.com/libphonenumber");
     channel.setMethodCallHandler(new LibphonenumberPlugin());
   }
 
@@ -36,7 +36,7 @@ public class LibphonenumberPlugin implements MethodCallHandler, FlutterPlugin {
 
   /** Keeping around to support older apps that aren't using v2 Android embedding */
   public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "codeheadlabs.com/libphonenumber");
+    final MethodChannel channel = new MethodChannel(registrar.messenger(), "buenro.com/libphonenumber");
     channel.setMethodCallHandler(new LibphonenumberPlugin());
   }
 
