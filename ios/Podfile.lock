@@ -1,0 +1,39 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_libphonenumber_ios (1.1.4):
+    - Flutter
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.8.0)
+  - libPhoneNumber-iOS (1.2.0)
+  - libphonenumber_buenro_fork (3.0.8):
+    - Flutter
+    - libPhoneNumber-iOS
+  - PhoneNumberKit/PhoneNumberKitCore (3.8.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_libphonenumber_ios (from `.symlinks/plugins/flutter_libphonenumber_ios/ios`)
+  - libphonenumber_buenro_fork (from `.symlinks/plugins/libphonenumber_buenro_fork/ios`)
+
+SPEC REPOS:
+  trunk:
+    - libPhoneNumber-iOS
+    - PhoneNumberKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_libphonenumber_ios:
+    :path: ".symlinks/plugins/flutter_libphonenumber_ios/ios"
+  libphonenumber_buenro_fork:
+    :path: ".symlinks/plugins/libphonenumber_buenro_fork/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_libphonenumber_ios: 5ad8620197bff91dd159d828b7544ec6956e86a1
+  libPhoneNumber-iOS: 08887de018360f60facbf1a8cb2a8eff4ffb30af
+  libphonenumber_buenro_fork: b44ea3bf0e0d00cff8b175ef65689ad75fc49f5e
+  PhoneNumberKit: ec00ab8cef5342c1dc49fadb99d23fa7e66cf0ef
+
+PODFILE CHECKSUM: b78f220f88c15c632f866bb90c5904c0796a1c2b
+
+COCOAPODS: 1.15.2

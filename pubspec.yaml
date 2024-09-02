@@ -1,11 +1,12 @@
 name: libphonenumber_buenro_fork
 description: This is a Flutter implementation of libphonenumber originally developed by https://github.com/emostar/flutter-libphonenumber, forked for support for flutter 3.24.1
-version: 3.0.5
+version: 3.0.10
 homepage: https://github.com/Buenro/flutter-libphonenumber
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_libphonenumber: ^2.3.3
   meta: ^1.12.0
 
 flutter:
@@ -20,3 +21,6 @@ flutter:
 environment:
   sdk: ">=3.0.0 <4.0.0"
   flutter: ">=3.0.0"
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

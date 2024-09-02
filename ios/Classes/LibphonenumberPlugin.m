@@ -4,7 +4,7 @@
 #import "NBAsYouTypeFormatter.h"
 
 @interface LibphonenumberPlugin ()
-@property(nonatomic, retain) NBPhoneNumberUtil *phoneUtil;
+@property (nonatomic, retain) NBPhoneNumberUtil *phoneUtil;
 @end
 
 @implementation LibphonenumberPlugin
@@ -13,7 +13,7 @@
                                                                 binaryMessenger:[registrar messenger]];
     
     LibphonenumberPlugin* instance = [[LibphonenumberPlugin alloc] init];
-    instance.phoneUtil = [[NBPhoneNumberUtil alloc] sharedInstance];
+    instance.phoneUtil = [NBPhoneNumberUtil sharedInstance];
     
     [registrar addMethodCallDelegate:instance channel:channel];
 }

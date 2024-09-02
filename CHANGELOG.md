@@ -1,5 +1,25 @@
 # Changelog
 
+## 3.0.10 (20240902)
+
+* Singleton pattern [NBPhoneNumberUtil sharedInstance]
+
+## 3.0.9 (20240902)
+
+* Podfile updates
+
+## 3.0.8 (20240902)
+
+* Updating podspec to include git source - variable expansion mistake
+
+## 3.0.7 (20240902)
+
+* Updating podspec to include git source
+* 
+## 3.0.6 (20240902)
+
+* Updating podspec
+* 
 ## 3.0.5 (20240902)
 
 * Updating meta to 1.12.0
